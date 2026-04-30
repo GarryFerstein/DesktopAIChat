@@ -21,7 +21,7 @@
 
 3. **Настройка VSCode**
    - Откройте VSCode
-   - Откройте проект: File -> Open Folder -> выберите папку 51-lesson
+   - Откройте проект: File -> Open Folder -> выберите папку DesktopAIChat
    - Выберите интерпретатор Python: 
      1. Нажмите F1 или Ctrl+Shift+P
      2. Введите "Python: Select Interpreter"
@@ -40,7 +40,7 @@
    ```
 
 5. **Настройка переменных окружения**
-   - Откройте `.env` и замените `your_api_key_here` на ваш API ключ OpenRouter
+   - Создайте и потом откройте `.env` и замените `your_api_key_here` на ваш API ключ OpenRouter
    - Остальные настройки можно оставить по умолчанию
 
 ## Сборка приложения
@@ -120,7 +120,6 @@ TEMPERATURE=0.7
 │   ├── main_simple.py     # Упрощенная версия main.py с урезанным функционалом
 │   └── main.py            # Точка входа приложения
 │   └── auth.py            # Система аутентификации
-├── .env.example           # Пример конфигурации
 ├── .gitignore             # Исключения Git
 ├── build.py               # Скрипт сборки
 ├── requirements.txt       # Зависимости Python
